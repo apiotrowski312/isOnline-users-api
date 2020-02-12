@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/apiotrowski312/isOnline-users-api/controllers/ping"
-	"github.com/apiotrowski312/isOnline-users-api/controllers/users"
+	"github.com/apiotrowski312/isOnline-users-api/src/controllers/ping"
+	"github.com/apiotrowski312/isOnline-users-api/src/controllers/users"
 )
 
 func mapUrls() {

@@ -4,12 +4,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/apiotrowski312/isOnline-users-api/src/domain/users"
+	"github.com/apiotrowski312/isOnline-users-api/src/services"
 	"github.com/apiotrowski312/isOnline-utils-go/oauth"
-	"github.com/apiotrowski312/isOnline-users-api/domain/users"
-	"github.com/apiotrowski312/isOnline-users-api/services"
-	"github.com/gin-gonic/gin"
-
 	"github.com/apiotrowski312/isOnline-utils-go/rest_errors"
+	"github.com/gin-gonic/gin"
 )
 
 func getUserId(userIdParam string) (int64, rest_errors.RestErr) {

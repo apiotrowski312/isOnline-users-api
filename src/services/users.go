@@ -1,10 +1,10 @@
 package services
 
 import (
+	"github.com/apiotrowski312/isOnline-users-api/src/domain/users"
 	"github.com/apiotrowski312/isOnline-utils-go/crypto_utils"
 	"github.com/apiotrowski312/isOnline-utils-go/date_utils"
 	"github.com/apiotrowski312/isOnline-utils-go/rest_errors"
-	"github.com/apiotrowski312/isOnline-users-api/domain/users"
 )
 
 var (

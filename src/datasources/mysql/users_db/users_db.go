@@ -3,9 +3,10 @@ package users_db
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"os"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var (

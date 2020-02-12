@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/apiotrowski312/isOnline-users-api/logger"
+	"github.com/apiotrowski312/isOnline-utils-go/logger"
 	"github.com/gin-gonic/gin"
 )
 

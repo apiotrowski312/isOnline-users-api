@@ -4,7 +4,6 @@ import (
 	"strings"
 
 	"github.com/apiotrowski312/isOnline-utils-go/rest_errors"
-
 )
 
 const (

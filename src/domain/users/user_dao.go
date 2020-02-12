@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/apiotrowski312/isOnline-users-api/src/datasources/mysql/users_db"
+	"github.com/apiotrowski312/isOnline-utils-go/logger"
 	"github.com/apiotrowski312/isOnline-utils-go/mysql_utils"
 	"github.com/apiotrowski312/isOnline-utils-go/rest_errors"
-	"github.com/apiotrowski312/isOnline-users-api/datasources/mysql/users_db"
-	"github.com/apiotrowski312/isOnline-users-api/logger"
 )
 
 const (
